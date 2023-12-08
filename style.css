@@ -1,0 +1,27 @@
+body {
+    background-color: #072264;
+}
+.hide {
+    display: none !important;
+}
+.d-block {
+    display: block;
+}
+.btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn.btn-primary {
+    width: -webkit-fill-available;
+    font-size: 12px;
+    padding: 5px;
+    margin: 3px;
+    border: solid 1px #dbdbdb;
+}
+.btn-left {
+    border-radius: 14px 0 0 14px;
+}
+.btn-right {
+    border-radius: 0 14px 14px 0;
+}

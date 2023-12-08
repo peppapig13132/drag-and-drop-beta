@@ -1,0 +1,49 @@
+/* desktop */
+.c-wz-dbox {
+    margin: auto;
+    margin-top: 5vh;
+    width: fit-content;
+    border: solid 1px #dbdbdb;
+    border-radius: 6px;
+    background-color: #072264;
+    color: #dbdbdb;
+    padding: 20px 10px;
+    user-select: none;
+}
+.c-wz-dbox h4 {
+    text-align: center;
+    margin-top: 0 !important;
+}
+.c-wz-dbox div.columns {
+    display: inline-block;
+}
+.c-wz-dbox div span {
+    color: #dbdbdb;
+    display: block;
+    border: solid 2px #dbdbdb;
+    border-radius: 14px;
+    width: 180px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin: 3px;
+}
+.c-wz-column {
+    border: solid 1px #c0c0c0;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    min-height: 30px;
+}
+.c-wz-dbox .columns {
+    display: inline-block;
+    vertical-align: text-top;
+}
+.drag-item-placeholder {
+    user-select: none;
+    border: dashed 2px #c0c0c0 !important;
+    opacity: .7;
+}
+.drag-item-placeholder:hover {
+    cursor: not-allowed;
+}

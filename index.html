@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wz.css">
+    <link rel="stylesheet" href="wz-m.css">
+</head>
+<body>
+    <div class="c-wz-dbox hide">
+        <h4>Dashboard View Setup</h4>
+        <div class="c-wz-box">
+            <div class="columns">
+                <div class="c-wz-column dwzc-1">
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="c-wz-column dwzc-2">
+                </div>
+            </div>
+
+            <div class="columns">
+                <div class="c-wz-column dwzc-3">
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-group">
+            <button class="btn btn-primary btn-left" onclick="reArrangeStart()">START</button>
+            <button class="btn btn-primary btn-right c-wz-arrange-save-dbtn">SAVE</button>
+        </div>
+    </div>
+
+    <div class="c-wz-mbox hide">
+        <h4>Dashboard View Setup</h4>
+        <div style="display: flex;">
+            <div>
+                <h6 class="c-mwz-title">Current</h6>
+
+                <div class="c-wz-mbox-l">
+                </div>
+            </div>
+
+            <div>
+                <h6 class="c-mwz-title">New</h6>
+                
+                <div class="c-wz-mbox-r">
+                </div>
+            </div>
+        </div>
+        
+        <div class="btn-group">
+            <button class="btn btn-primary btn-left c-wz-arrange-start-mbtn">START</button>
+            <button class="btn btn-primary btn-right c-wz-arrange-save-mbtn">SAVE</button>
+        </div>
+        <p class="c-mwz-msg-warn hide">Please move all items on the left side.</p>
+    </div>
+    <script src="common.js"></script>
+    <script src="wz.js"></script>
+    <script src="wz-m.js"></script>
+</body>
+</html>
