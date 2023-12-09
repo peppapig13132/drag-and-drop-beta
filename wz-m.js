@@ -15,15 +15,11 @@ mobileWidgetOrder = oldMobileWidgetOrder.split(',');
 
 mobileWidgetOrder.forEach(function (widgetId) {
     let currentArrangementBox = document.querySelector('.c-wz-mbox-l');
+    
     var spanEl = document.createElement('span');
-
-    if (document.querySelectorAll('.c-wz-mbox-l .drag-mitem') < 1) {
-        spanEl.setAttribute('class', 'mitem-placeholder hide');
-    } else {
-        spanEl.classList.add('drag-mitem');
-        spanEl.setAttribute('id', widgetId);
-        spanEl.innerHTML = widgetId.split('-')[1].replace('-', ' ').toLocaleUpperCase();
-    }
+    spanEl.classList.add('drag-mitem');
+    spanEl.setAttribute('id', widgetId);
+    spanEl.innerHTML = widgetId.split('-')[1].replace('-', ' ').toLocaleUpperCase();
 
     currentArrangementBox.appendChild(spanEl)
 });
